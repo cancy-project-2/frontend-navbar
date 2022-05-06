@@ -1,5 +1,7 @@
 {
   "name": "@cancy-project/navbar",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
