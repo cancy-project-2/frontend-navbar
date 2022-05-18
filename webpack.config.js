@@ -7,6 +7,10 @@ module.exports = (webpackConfigEnv, argv) => {
     projectName: "navbar",
     webpackConfigEnv,
     argv,
+    standaloneOptions: {
+      appOrParcelName: "navbar",
+      importMapUrl: new URL("https://storage.googleapis.com/cancy-website-2-bucket/import/map.json"),
+    },
   });
 
   return merge(defaultConfig, {
