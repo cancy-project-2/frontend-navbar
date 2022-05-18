@@ -7,6 +7,6 @@ const InnerNavbar = () => {
       <Link to={`/`}>{"Back"}</Link>
     </div>
   );
-}
+};
 
 export default InnerNavbar;
